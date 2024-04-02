@@ -1,0 +1,7 @@
+●
+firebase authentication
+50000000000
+cloud firestore
+firebase storage
+
+

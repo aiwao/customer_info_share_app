@@ -1,0 +1,698 @@
+{
+  "organizations": {
+
+    "organization1" : {  
+      "name" : "ニヌルイ",
+      "phonetic" : "ニヌルイ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization2" : {  
+      "name" : "ヘクサカ",
+      "phonetic" : "ヘクサカ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization3" : {  
+      "name" : "カハラサ",
+      "phonetic" : "カハラサ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization4" : {  
+      "name" : "ミラケウ",
+      "phonetic" : "ミラケウ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization5" : {  
+      "name" : "ハハルタ",
+      "phonetic" : "ハハルタ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization6" : {  
+      "name" : "ウテフシ",
+      "phonetic" : "ウテフシ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization7" : {  
+      "name" : "ナトマメ",
+      "phonetic" : "ナトマメ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization8" : {  
+      "name" : "コホタナ",
+      "phonetic" : "コホタナ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization9" : {  
+      "name" : "ハヤキオ",
+      "phonetic" : "ハヤキオ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization10" : {  
+      "name" : "エサスコ",
+      "phonetic" : "エサスコ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization11" : {  
+      "name" : "ムメンマ",
+      "phonetic" : "ムメンマ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization12" : {  
+      "name" : "タシサキ",
+      "phonetic" : "タシサキ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization13" : {  
+      "name" : "シクリイ",
+      "phonetic" : "シクリイ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization14" : {  
+      "name" : "エラマエ",
+      "phonetic" : "エラマエ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization15" : {  
+      "name" : "ヘヤヨレ",
+      "phonetic" : "ヘヤヨレ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization16" : {  
+      "name" : "ニエメエ",
+      "phonetic" : "ニエメエ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization17" : {  
+      "name" : "メウカト",
+      "phonetic" : "メウカト",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization18" : {  
+      "name" : "コフサヤ",
+      "phonetic" : "コフサヤ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization19" : {  
+      "name" : "ホキヒレ",
+      "phonetic" : "ホキヒレ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization20" : {  
+      "name" : "ムセソモ",
+      "phonetic" : "ムセソモ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization21" : {  
+      "name" : "ラウテニ",
+      "phonetic" : "ラウテニ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization22" : {  
+      "name" : "ハリロセ",
+      "phonetic" : "ハリロセ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization23" : {  
+      "name" : "ヨレンソ",
+      "phonetic" : "ヨレンソ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization24" : {  
+      "name" : "クスケケ",
+      "phonetic" : "クスケケ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization25" : {  
+      "name" : "ヌケコシ",
+      "phonetic" : "ヌケコシ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization26" : {  
+      "name" : "ワラホコ",
+      "phonetic" : "ワラホコ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization27" : {  
+      "name" : "ヨツソン",
+      "phonetic" : "ヨツソン",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization28" : {  
+      "name" : "サヨンミ",
+      "phonetic" : "サヨンミ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization29" : {  
+      "name" : "オシヤモ",
+      "phonetic" : "オシヤモ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization30" : {  
+      "name" : "テトタユ",
+      "phonetic" : "テトタユ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization31" : {  
+      "name" : "リセノス",
+      "phonetic" : "リセノス",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization32" : {  
+      "name" : "フミハミ",
+      "phonetic" : "フミハミ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization33" : {  
+      "name" : "シヘカス",
+      "phonetic" : "シヘカス",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization34" : {  
+      "name" : "スミンホ",
+      "phonetic" : "スミンホ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization35" : {  
+      "name" : "ムレラル",
+      "phonetic" : "ムレラル",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization36" : {  
+      "name" : "セククル",
+      "phonetic" : "セククル",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization37" : {  
+      "name" : "チンツチ",
+      "phonetic" : "チンツチ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization38" : {  
+      "name" : "セトユス",
+      "phonetic" : "セトユス",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization39" : {  
+      "name" : "ツルオシ",
+      "phonetic" : "ツルオシ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization40" : {  
+      "name" : "ロワエツ",
+      "phonetic" : "ロワエツ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization41" : {  
+      "name" : "セミシミ",
+      "phonetic" : "セミシミ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization42" : {  
+      "name" : "ナモキカ",
+      "phonetic" : "ナモキカ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization43" : {  
+      "name" : "ノトモハ",
+      "phonetic" : "ノトモハ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization44" : {  
+      "name" : "アホリヘ",
+      "phonetic" : "アホリヘ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization45" : {  
+      "name" : "フコノヒ",
+      "phonetic" : "フコノヒ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization46" : {  
+      "name" : "ナヤフウ",
+      "phonetic" : "ナヤフウ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization47" : {  
+      "name" : "フテフエ",
+      "phonetic" : "フテフエ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization48" : {  
+      "name" : "ツテウラ",
+      "phonetic" : "ツテウラ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization49" : {  
+      "name" : "ミエナワ",
+      "phonetic" : "ミエナワ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization50" : {  
+      "name" : "ロユヤレ",
+      "phonetic" : "ロユヤレ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization51" : {  
+      "name" : "ノヨコユ",
+      "phonetic" : "ノヨコユ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization52" : {  
+      "name" : "オヒスラ",
+      "phonetic" : "オヒスラ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization53" : {  
+      "name" : "エムリコ",
+      "phonetic" : "エムリコ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization54" : {  
+      "name" : "ソオノル",
+      "phonetic" : "ソオノル",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization55" : {  
+      "name" : "カアチサ",
+      "phonetic" : "カアチサ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization56" : {  
+      "name" : "テシモナ",
+      "phonetic" : "テシモナ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization57" : {  
+      "name" : "ワリヌン",
+      "phonetic" : "ワリヌン",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization58" : {  
+      "name" : "ヨフテト",
+      "phonetic" : "ヨフテト",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization59" : {  
+      "name" : "ロワヌヘ",
+      "phonetic" : "ロワヌヘ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization60" : {  
+      "name" : "テエヨニ",
+      "phonetic" : "テエヨニ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization61" : {  
+      "name" : "ラフムフ",
+      "phonetic" : "ラフムフ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization62" : {  
+      "name" : "レカメヤ",
+      "phonetic" : "レカメヤ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization63" : {  
+      "name" : "アチアキ",
+      "phonetic" : "アチアキ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization64" : {  
+      "name" : "ユモソヨ",
+      "phonetic" : "ユモソヨ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization65" : {  
+      "name" : "ヨオサタ",
+      "phonetic" : "ヨオサタ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization66" : {  
+      "name" : "オフチケ",
+      "phonetic" : "オフチケ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization67" : {  
+      "name" : "モアケキ",
+      "phonetic" : "モアケキ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization68" : {  
+      "name" : "ラテホク",
+      "phonetic" : "ラテホク",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization69" : {  
+      "name" : "ウヘケア",
+      "phonetic" : "ウヘケア",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization70" : {  
+      "name" : "セシキテ",
+      "phonetic" : "セシキテ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization71" : {  
+      "name" : "ヒアテネ",
+      "phonetic" : "ヒアテネ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization72" : {  
+      "name" : "ヒロママ",
+      "phonetic" : "ヒロママ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization73" : {  
+      "name" : "ヤヒセキ",
+      "phonetic" : "ヤヒセキ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization74" : {  
+      "name" : "ユチチヒ",
+      "phonetic" : "ユチチヒ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization75" : {  
+      "name" : "エムタカ",
+      "phonetic" : "エムタカ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization76" : {  
+      "name" : "コハタフ",
+      "phonetic" : "コハタフ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization77" : {  
+      "name" : "アマモノ",
+      "phonetic" : "アマモノ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization78" : {  
+      "name" : "キレマケ",
+      "phonetic" : "キレマケ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization79" : {  
+      "name" : "ホレサユ",
+      "phonetic" : "ホレサユ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization80" : {  
+      "name" : "ヌシナワ",
+      "phonetic" : "ヌシナワ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization81" : {  
+      "name" : "ネクワネ",
+      "phonetic" : "ネクワネ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization82" : {  
+      "name" : "ヌアホカ",
+      "phonetic" : "ヌアホカ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization83" : {  
+      "name" : "マラロホ",
+      "phonetic" : "マラロホ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization84" : {  
+      "name" : "ウラヨソ",
+      "phonetic" : "ウラヨソ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization85" : {  
+      "name" : "リウマミ",
+      "phonetic" : "リウマミ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization86" : {  
+      "name" : "ワカヤニ",
+      "phonetic" : "ワカヤニ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization87" : {  
+      "name" : "ケテロア",
+      "phonetic" : "ケテロア",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization88" : {  
+      "name" : "ケンネツ",
+      "phonetic" : "ケンネツ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization89" : {  
+      "name" : "メカキキ",
+      "phonetic" : "メカキキ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization90" : {  
+      "name" : "フオウタ",
+      "phonetic" : "フオウタ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization91" : {  
+      "name" : "ナニレフ",
+      "phonetic" : "ナニレフ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization92" : {  
+      "name" : "ツエヘア",
+      "phonetic" : "ツエヘア",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization93" : {  
+      "name" : "アコテシ",
+      "phonetic" : "アコテシ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization94" : {  
+      "name" : "ヌオイタ",
+      "phonetic" : "ヌオイタ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization95" : {  
+      "name" : "ソケタイ",
+      "phonetic" : "ソケタイ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization96" : {  
+      "name" : "キンネス",
+      "phonetic" : "キンネス",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization97" : {  
+      "name" : "メユナヒ",
+      "phonetic" : "メユナヒ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization98" : {  
+      "name" : "ミノフモ",
+      "phonetic" : "ミノフモ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+    "organization99" : {  
+      "name" : "ツロラテ",
+      "phonetic" : "ツロラテ",
+      "phone" : "012-3456-7890",
+      "address" : "熊本県天草市本渡町本戸馬場1580-6",
+      "pcode" : "863-0002"
+    },
+  }
+}
