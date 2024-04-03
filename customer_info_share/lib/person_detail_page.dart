@@ -43,13 +43,13 @@ class PersonDetailPageState extends State<PersonDetailPage> {
 
   Future<void> getPersonCardImgUrls() async {
     final ref = FirebaseStorage.instance.ref();
-    await ref.child('cards/sample/sample_card_front.jpg').getDownloadURL().then((value) {
+    await ref.child('cards/sample/sample_card.jpg').getDownloadURL().then((value) {
       setState(() {
         cardFrontImgUrl = value;
 
       });
     });
-    await ref.child('cards/sample/sample_card_back.jpg').getDownloadURL().then((value) {
+    await ref.child('cards/sample/sample_card.jpg').getDownloadURL().then((value) {
       setState(() {
         cardBackImgUrl = value;
       });

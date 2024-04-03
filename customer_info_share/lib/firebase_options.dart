@@ -48,13 +48,13 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: 'AIzaSyBSP8aoBNm7GxW25ab7imeR4cKbkC3mXkA',
-    appId: '1:817395195895:web:4b6e1b323cc854eddd18f2',
+    appId: '1:817395195895:web:5ef19da450bdfe99dd18f2',
     messagingSenderId: '817395195895',
     projectId: 'ns-customer-info-share-84343',
     authDomain: 'ns-customer-info-share-84343.firebaseapp.com',
     databaseURL: 'https://ns-customer-info-share-84343-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'ns-customer-info-share-84343.appspot.com',
-    measurementId: 'G-NC1KSEH6H3',
+    measurementId: 'G-45KBJ4YFWB',
   );
 
   static const FirebaseOptions android = FirebaseOptions(

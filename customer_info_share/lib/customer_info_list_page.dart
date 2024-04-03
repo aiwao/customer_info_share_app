@@ -11,9 +11,7 @@ class CustomerInfoListPage extends StatefulWidget {
 }
 
 class CustomerInfoListPageState extends State<CustomerInfoListPage> {
-  OrganizationListTabView ov = OrganizationListTabView();
-  PersonListTabView pv = PersonListTabView();
-  
+
   @override
   void initState() {
     super.initState();
@@ -40,10 +38,8 @@ class CustomerInfoListPageState extends State<CustomerInfoListPage> {
         body: TabBarView(
           physics: NeverScrollableScrollPhysics(),
           children: [
-            /* OrganizationListTabView(),
-            PersonListTabView(),*/
-            ov,
-            pv,
+            OrganizationListTabView(),
+            PersonListTabView(),
           ],
         ),
       ),
