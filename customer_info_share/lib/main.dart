@@ -7,6 +7,7 @@ import 'package:firebase_database/firebase_database.dart';
 import 'package:customer_info_share/customer_info_share.dart';
 
 import 'package:camera/camera.dart';
+import 'register_textfield.dart';
 
 
 Future<void> main() async {
@@ -15,159 +16,111 @@ Future<void> main() async {
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
 //  runApp(const AuthPage());
   //runApp(const CustomerInfoShareApp());
-  runApp(RegisterTest());
+  runApp(MaterialApp(
+    home: PersonRegisterPage()));
 }  
 
-class RegisterTest extends StatefulWidget {
-  const RegisterTest({super.key});
-
+class PersonRegisterPage extends StatefulWidget {
   @override
-  RegisterTestState createState() => RegisterTestState();
+  PersonRegisterPageState createState() => PersonRegisterPageState();
 }
 
-class RegisterTestState extends State<RegisterTest> {
-  Map<String, dynamic> fieldInfo = {};
-  Map<String, MyTextField> textFields = {};
+class PersonRegisterPageState extends State<PersonRegisterPage> {
+
+  Image? imgFront;
+  Image? imgBack;
+  late CameraDescription firstCamera;
+  Map<String, dynamic> textFields = {};
 
   @override
   void initState() {
     super.initState();
-    textFields['name'] = MyTextField('name', '名前を入力してください');
-    textFields['phonetic'] = MyTextField('phonetic', 'ふりがなを入力してください');
-    textFields['address'] = MyTextField('address', '住所を入力してください');
+    imgFront = Image.asset('assets/image/placeholder.png');
+    imgBack = Image.asset('assets/image/placeholder.png');
+    prepareCamera();
+    textFields['name'] = RegisterTextField('name', '名前を入力してください');
+    textFields['phonetic'] = RegisterTextField('phonetic', 'ふりがなを入力してください');
+    textFields['phone'] = RegisterTextField('phone', '電話番号を入力してください');
+  }
 
+  Future<void> prepareCamera() async {
+    final cameras = await availableCameras();
+    firstCamera = cameras.first;
   }
 
   @override
   Widget build(BuildContext context) {
-    debugPrint('in build');
-    return MaterialApp(
-      title: 'register test',
-      home: Scaffold(
+    return 
+       Scaffold(
         appBar: AppBar(
-          title: const Text('企業登録'),
+          title: const Text('名刺登録'),
         ),
-        body: Center(
-          child: Padding(
-            padding: const EdgeInsets.all(20),
-              child: Column(
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: [
-                Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    const Text('名前'),
-                    const Padding(padding: EdgeInsets.only(top: 10)),
-                    MyTextField('name', '名前を入力してください'),
-                    const Padding(padding: EdgeInsets.only(top: 15)),
-                    const Text('ふりがな'),
-                    const Padding(padding: EdgeInsets.only(top: 10)),
-                    MyTextField('phonetic', 'ふりがなを入力してください'),
-                    const Padding(padding: EdgeInsets.only(top: 15)),
-                    const Text('住所'),
-                    const Padding(padding: EdgeInsets.only(top: 10)),
-                    MyTextField('address', '住所を入力してください'),
-                    const Padding(padding: EdgeInsets.only(top: 40)),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        ElevatedButton(
-                          onPressed: () async {
-                            final name = textFields['name']?.strVal;
-                            final phonetic = textFields['phonetic']?.strVal;
-                            final address = textFields['address']?.strVal;
-                            debugPrint('登録：$name');
-                            debugPrint('登録：$phonetic');
-                            debugPrint('登録：$address');
-                            final t = DateTime.now().millisecondsSinceEpoch;
-                            final orgid = 'organization$t';
-                            DatabaseReference ref = FirebaseDatabase.instance.ref("organizations");
-                            ref.push();
-                            await ref.set({
-                              "organization$orgid" : {
-                                "name" : name,
-                                "phonetic" : phonetic,
-                                "address" : address,
-                              }
-                            });
-                          },
-                          child: const Text('登録'),
-                        ),
-                        const Padding(padding: EdgeInsets.only(left: 20)),
-                        ElevatedButton(
-                          child: const Text('クリア'),
-                          onPressed: () {
-                            textFields.forEach((key, tf) => tf.clear());
-                          },
-                        ),
-                      ],
-                    ),
-                  ],
-                ),
-                const Padding(
-                  padding: EdgeInsets.only(top: 10),
-                ),
-              ],
-            ),
+        body: SingleChildScrollView(
+          child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const Text('名前'),
+              const Padding(padding: EdgeInsets.only(top: 10)),
+              textFields['name'],
+              const Padding(padding: EdgeInsets.only(top: 15)),
+              const Text('ふりがな'),
+              const Padding(padding: EdgeInsets.only(top: 10)),
+              textFields['phonetic'],
+              const Padding(padding: EdgeInsets.only(top: 15)),
+              const Text('電話番号'),
+              const Padding(padding: EdgeInsets.only(top: 10)),
+              textFields['phone'],
+              const Padding(padding: EdgeInsets.only(top: 15)),
+              ElevatedButton(
+                onPressed: () async {
+                var image = await Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => TakePictureScreen(camera: firstCamera),
+                    fullscreenDialog: true,
+                  ));
+                  setState(() {
+                    imgFront = image;
+                  });
+                },
+                child: Text('表'),
+              ),
+              SizedBox(
+                height: 200,
+                child: imgFront,
+              ),
+              ElevatedButton(
+                onPressed: () async {
+                var image = await Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => TakePictureScreen(camera: firstCamera),
+                    fullscreenDialog: true,
+                  ));
+                  setState(() {
+                    imgBack = image;
+                  });
+                },
+                child: Text('裏'),
+              ),
+              SizedBox(
+                height: 200,
+                child: imgBack,
+              ),
+            ],
           ),
         ),
       ),
-    );
+       );
   }
 }
 
-class MyTextField extends StatefulWidget {
-  final String fieldName;
-  final String labelText;
-  String strVal = '';
-  int intVal = 0;
+/*
 
-  final TextEditingController _controller = TextEditingController();
 
-  MyTextField(this.fieldName, this.labelText, {Key? key}) : super(key: key);
-
-  void clear() {
-    debugPrint('MyTextField.clear');
-    _controller.clear();
-    strVal = '';
-    intVal = 0;
-  }
-
-  @override
-  MyTextFieldState createState() => MyTextFieldState();
-}
-
-class MyTextFieldState extends State<MyTextField> {
-
-  @override
-  void dispose() {
-    widget._controller.dispose();
-    super.dispose();
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return TextField(
-      controller: widget._controller,
-      decoration: InputDecoration(
-        labelText: widget.labelText,
-        border: const OutlineInputBorder(),
-      ),
-      onChanged: (text) {
-        widget.strVal = text;
-        try {
-          widget.intVal = int.parse(text);
-        }
-        catch(e) {
-          widget.intVal = 0;
-        }
-      },
-    );
-  }
-}
   
 
-  /*
+  
   final cameras = await availableCameras();
   final firstCamera = cameras.first;
 
@@ -262,6 +215,7 @@ class RegPageState extends State<RegPage> {
     );
   }
 }
+*/
 
 class TakePictureScreen extends StatefulWidget {
   const TakePictureScreen({
@@ -345,5 +299,3 @@ class DisplayPictureScreen extends StatelessWidget {
       );
   }
 }
-
-*/

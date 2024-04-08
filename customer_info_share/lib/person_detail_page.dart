@@ -16,7 +16,6 @@ class PersonDetailPageState extends State<PersonDetailPage> {
   Person? person;
   String cardFrontImgUrl = '';
   String cardBackImgUrl = '';
-  
 
   @override
   void initState() {
